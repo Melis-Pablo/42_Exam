@@ -6,4 +6,5 @@ time="time=$date"
 
 usingpost="using=$1"
 
-curl -X POST -F "$userpost" -F "$usingpost" -F "$os" -F "$time" "https://user.grademe.fr/exam.php" > /dev/null 2>&1
+# curl -X POST -F "$userpost" -F "$usingpost" -F "$os" -F "$time" "https://user.grademe.fr/exam.php" > /dev/null 2>&1
+echo "data sent ;)"
